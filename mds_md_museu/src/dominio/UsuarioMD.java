@@ -1,5 +1,7 @@
 package dominio;
 
-public class UsuarioMD {
+import javax.servlet.http.HttpServlet;
+
+public class UsuarioMD extends HttpServlet{
 
 }
