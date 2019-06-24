@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class UsuarioMD extends HttpServlet{
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
 		String cmd = (String) request.getParameter("cmd");
 		
 		if (cmd == null) {
